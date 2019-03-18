@@ -6,3 +6,6 @@
 2. Run **vagrant init vje/min**
 3. Run **vagrant up**
 4. Navigate to https://v.je/index.html in your web browser. If the server is running you will see a welcome page
+
+
+More information on setup on: https://r.je/vje-minimal-virtual-server
