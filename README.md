@@ -3,6 +3,6 @@
 **Make sure you have Vagrant and VirtualBox installed**
 
 1, Using a terminal application (on windows, command prompt or powershell) navigate to the directory you want to store your files in
-2, Run vagrant init vje/min
-3, Run vagrant up
+2, Run **vagrant init vje/min**
+3, Run **vagrant up**
 3, Navigate to https://v.je/index.html in your web browser. If the server is running you will see a welcome page
