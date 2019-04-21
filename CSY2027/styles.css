@@ -1,0 +1,173 @@
+/* Fonts */
+@import url('https://stockfont.org/?736a681b23134a54ac0efc5c189e80d711964e944d1dc48be781cec97380dbd8');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+* {margin: 0; padding: 0;}
+a {text-decoration: none;}
+html {font-family: 'Open Sans', sans-serif;}
+
+body {background-color: #ffffff;}
+
+header {
+  background: linear-gradient(to bottom, #58f5f1 0%,#92f8ca 20%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#58f5f1', endColorstr='#92f8ca',GradientType=0 ); /* IE6-9 */
+  font: 400 87.5%/1.5em 'Open Sans', sans-serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*background-color: #3a3f48;*/
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  padding-bottom: 2em;
+}
+
+/* logo */
+#logo {
+  width: 150px;
+  display: inline-block;
+  padding: 1em;
+  margin: 0;
+}
+
+/* Dashboard navigation bar text */ 
+#dash-navbar-left{
+  text-decoration: none;
+  list-style-type: none;
+  text-align: left;
+  font-size: 1.2em;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2em;
+}
+
+/* Dashboard navigation bar */ 
+#navigation-left {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 127px;
+  left: 0;
+  background-color: #3a3f48;
+  overflow: hidden;
+  padding-top: 50px;
+  /*margin-top: 127px;
+  margin-bottom: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  float: left;
+  background-color: #3a3f48;
+  width: 15%;
+  min-width: 200px;
+  min-height: 80vh;
+  padding: 1em;*/
+}
+
+/* Navbar left items text*/
+.nl-item {
+  font-size: 1.2em;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 50px;
+}
+
+.topbar-menu {
+  /*width: 100%;
+  height: 100px;
+  max-height: 100px;
+  float: left;
+  text-decoration: none;
+  display: inline-block;*/
+}
+
+/* ul */
+.topbar-menu-list {
+  display: inline-block;
+}
+
+/* li */
+.topbar-menu-items {
+  float: left;
+  padding-top: 1em;
+  padding-right: 3em;
+  list-style-type: none;
+}
+
+/* Topbar menu items text */
+.tm-item {
+  font-size: 1.5em;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+  font-family: 'Open Sans', sans-serif;
+  list-style-type: none;
+  font-weight: 700;
+}
+
+/* li */
+#topbar-menu-logout {
+  margin: 0;
+  float: right !important;
+  padding-top: 1em;
+  padding-right: 3em;
+  list-style-type: none;
+}
+
+/* Topbar menu logout text */
+#tm-logout {
+  font-size: 1.5em;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  background-color: #4a4a4a;
+  color: #ffffff;
+  text-align: center;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  color: #3a3f48;
+}
+
+.main-panel {
+  height: 100%;
+  width: 80%;
+  position: fixed;
+  z-index: 1;
+  top: 127px;
+  right: 0;
+  background-color: #184494;
+  overflow: hidden;
+  padding-top: 50px;
+  /*
+  margin-top: 127px;
+  margin-bottom: 0;
+  top: 0;
+  bottom: 0;
+  display: block;
+  float: right;
+  background-color: #3a3f48;
+  width: 80%;
+  min-height: 80vh;
+  padding: 1em;*/
+}
