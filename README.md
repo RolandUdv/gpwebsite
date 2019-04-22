@@ -11,6 +11,6 @@
 More information on setup on: https://r.je/vje-minimal-virtual-server
 
 
-Quick Links
--Login: https://rolandudv.github.io/gpwebsite//CSY2027/admin/login.html
--Admin dashboard: https://rolandudv.github.io/gpwebsite//CSY2027/admin/index.html
+**Quick Links**
+- [Login Page](https://rolandudv.github.io/gpwebsite//CSY2027/admin/login.html)
+- [Admin dashboard](https://rolandudv.github.io/gpwebsite//CSY2027/admin/index.html)
