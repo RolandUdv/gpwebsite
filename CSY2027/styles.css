@@ -10,7 +10,10 @@
 a {text-decoration: none;}
 html {font-family: 'Open Sans', sans-serif;}
 
-body {background-color: #ffffff;}
+body {
+  background-color: #ffffff;
+  display: block;
+}
 
 header {
   background: linear-gradient(to bottom, #58f5f1 0%,#92f8ca 20%);
@@ -18,7 +21,6 @@ header {
   font: 400 87.5%/1.5em 'Open Sans', sans-serif;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /*background-color: #3a3f48;*/
   width: 100%;
   height: 100px;
   position: absolute;
@@ -34,7 +36,7 @@ header {
 }
 
 /* Dashboard navigation bar text */ 
-#dash-navbar-left{
+#ul-navbar-left{
   text-decoration: none;
   list-style-type: none;
   text-align: left;
@@ -49,24 +51,12 @@ header {
 #navigation-left {
   height: 100%;
   width: 20%;
-  position: fixed;
-  z-index: 1;
+  position: absolute;
   top: 127px;
   left: 0;
   background-color: #3a3f48;
-  overflow: hidden;
+  overflow: auto;
   padding-top: 50px;
-  /*margin-top: 127px;
-  margin-bottom: 0;
-  top: 0;
-  bottom: 0;
-  position: absolute;
-  float: left;
-  background-color: #3a3f48;
-  width: 15%;
-  min-width: 200px;
-  min-height: 80vh;
-  padding: 1em;*/
 }
 
 /* Navbar left items text*/
@@ -81,12 +71,7 @@ header {
 }
 
 .topbar-menu {
-  /*width: 100%;
-  height: 100px;
-  max-height: 100px;
-  float: left;
-  text-decoration: none;
-  display: inline-block;*/
+
 }
 
 /* ul */
@@ -130,44 +115,43 @@ header {
   font-weight: 700;
 }
 
-#footer {
+footer {
+  height: 30px;
+  width: 100%;
+  z-index: 1;
   position: absolute;
   bottom: 0;
-  left: 0;
-  height: 2em;
+  background-color: #2a2d33;
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 100%;
-  background-color: #4a4a4a;
-  color: #ffffff;
   text-align: center;
+  color: #ffffff;
 }
 
 .content {
   width: 100%;
   height: 100%;
   color: #3a3f48;
+  right: 0;
 }
 
 .main-panel {
   height: 100%;
   width: 80%;
-  position: fixed;
+  position: absolute;
   z-index: 1;
   top: 127px;
   right: 0;
   background-color: #184494;
-  overflow: hidden;
   padding-top: 50px;
-  /*
-  margin-top: 127px;
-  margin-bottom: 0;
-  top: 0;
-  bottom: 0;
-  display: block;
-  float: right;
-  background-color: #3a3f48;
-  width: 80%;
-  min-height: 80vh;
-  padding: 1em;*/
+}
+
+.dashboard-panels {
+  border-radius: 15px;
+  text-align: center;
+  /*width: 100%;*/
+  height: 250px;
+  background-color: rgb(150, 150, 150);
+  margin: 10px;
+  padding: 10px;
 }
